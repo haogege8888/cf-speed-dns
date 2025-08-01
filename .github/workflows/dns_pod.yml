@@ -1,8 +1,5 @@
 name: 'dns_pod_push'
 
-permissions:
-  contents: write
-
 on:
   schedule:
     - cron: '0 */1 * * *'
