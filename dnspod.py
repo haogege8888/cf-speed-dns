@@ -193,7 +193,7 @@ def get_cf_speed_test_ip(timeout=10, max_retries=5):
     for attempt in range(max_retries):
         try:
             response = requests.get(
-                'https://ip.164746.xyz/ipTop.html',
+                'https://ip.haogege.xyz/ipTop.html',
                 timeout=timeout
             )
             if response.status_code == 200:
